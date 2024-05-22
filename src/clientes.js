@@ -4,11 +4,7 @@ const port = 3000;
 const app = express();
 app.use(express.json());
 
-var clientes = [];
-
-app.get('/', (req, res) => {
-    console.log(req.query)
-
+app.get('/clientes', (req, res) => {
     res.send('Chamou o GET!');
 });
 
