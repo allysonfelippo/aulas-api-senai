@@ -2,9 +2,8 @@
   "name": "aulas-api-senai",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/clientes.js"
 
   },
   "keywords": [],
